@@ -1,0 +1,496 @@
+Uri: https://inanimals.gr/ilioupoli
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/images/homepage/slider_2021-07-28_705894306.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\slider_2021-07-28_705894306.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/slider_2021-07-28_206466003.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\slider_2021-07-28_206466003.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/slide2.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\slide2.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/slider_2021-08-02_867781194.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\slider_2021-08-02_867781194.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/favicon.ico
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://inanimals.gr/theme/petz/css/bootstrap.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\css\bootstrap.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Lato:400,800
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\css.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Baloo+Thambi
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\css-1.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/petz/fonts/font-awesome/css/font-awesome.min.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\fonts\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/petz/fonts/flaticons/flaticon.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\fonts\flaticons\flaticon.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/petz/fonts/glyphicons/bootstrap-glyphicons.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\fonts\glyphicons\bootstrap-glyphicons.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/petz/css/style.css?v=6
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\css\style.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/petz/css/plugins.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\css\plugins.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/petz/styles/maincolors.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\styles\maincolors.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/custom.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\custom.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/ilioupoli/our-actions
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\our-actions.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/our-goals
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\our-goals.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/animals-park
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\animals-park.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/refuge
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\refuge.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/adopt-animal
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\adopt-animal.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/application-for-adoption-or-hospitality
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\application-for-adoption-or-hospitality.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/register-my-colony
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\register-my-colony.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/pet-friendly-map
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\pet-friendly-map.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/application-for-sponsorship
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\application-for-sponsorship.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/application-for-animal-loss
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\application-for-animal-loss.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/map-with-all-geographical-locations-of-loss
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\map-with-all-geographical-locations-of-loss.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/application-for-found-animal
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\application-for-found-animal.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/map-with-all-geographical-finding-spots
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\map-with-all-geographical-finding-spots.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/cross-check
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\cross-check.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/complaint-of-animal-abuse
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\complaint-of-animal-abuse.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/services
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\services.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/faq
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\faq.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/contact-us
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\contact-us.html
+Content Type: text/html
+
+Uri: https://www.google.com/
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\index.htm
+Content Type: text/html
+
+Uri: https://www.purina.gr/
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\index-2.htm
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/testtest
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\testtest.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/o-dimos-ilioypolis-protypo-filozwikis-koyltoyras-oi-nees-draseis-gia-tin-prostasia-twn-adespotwn
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\o-dimos-ilioypolis-protypo-filozwikis-koyltoyras-oi-nees-draseis-gia-tin-prostasia-twn-adespotwn.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/dhmotiko-mhtrwo-frontistwn-adespotwn-zwwn-apo-to-dhmo-ilioupolis
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\dhmotiko-mhtrwo-frontistwn-adespotwn-zwwn-apo-to-dhmo-ilioupolis.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/sygkinhtikh-h-antapokrish-twn-frontistwn-sth-prwth-dianomh-trofwn
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\sygkinhtikh-h-antapokrish-twn-frontistwn-sth-prwth-dianomh-trofwn.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/to-dikasthrio-eksedwse-apofash-dikaiwshw-gia-tous-frontistes-twn-adespotwn-zwwn
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\to-dikasthrio-eksedwse-apofash-dikaiwshw-gia-tous-frontistes-twn-adespotwn-zwwn.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/more-section
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\more-section.html
+Content Type: text/html
+
+Uri: https://cosmodraw.com/
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\index-3.htm
+Content Type: text/html
+
+Uri: https://inanimals.gr/theme/petz/img/logo.png
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\logo.png
+Content Type: image/png
+
+Uri: https://inanimals.gr/images/sponsors/sponsor_2021-02-14_242337752.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\sponsors\sponsor_2021-02-14_242337752.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/sponsors/sponsor_2021-02-14_1073869943.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\sponsors\sponsor_2021-02-14_1073869943.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/sponsors/sponsor_2021-02-14_1262867861.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\sponsors\sponsor_2021-02-14_1262867861.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/sponsors/sponsor_2021-02-14_1776379813.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\sponsors\sponsor_2021-02-14_1776379813.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/sponsors/sponsor_2021-02-15_1385018373.png
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\sponsors\sponsor_2021-02-15_1385018373.png
+Content Type: image/png
+
+Uri: https://inanimals.gr/theme/petz/img/service1.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\service1.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/img/service2.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\service2.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/img/service3.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\service3.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/img/service4.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\service4.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/img/service5.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\service5.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/img/illustrations/petbowl.png
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\illustrations\petbowl.png
+Content Type: image/png
+
+Uri: https://inanimals.gr/theme/petz/img/about-index.png
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\about-index.png
+Content Type: image/png
+
+Uri: https://inanimals.gr/images/articles/article_content_2021-03-21_896780100.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\article_content_2021-03-21_896780100.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/The-Municipality-of-Ilioupoli-shows-the-way.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\The-Municipality-of-Ilioupoli-shows-the-way.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/Strays-dogs.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\Strays-dogs.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/The-response-of-caregivers-to-the-first-food-distribution-is-touching.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\The-response-of-caregivers-to-the-first-food-distribution-is-touching.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/The-court-acquitted-the-caregivers-of-the-stray-animals.png
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\The-court-acquitted-the-caregivers-of-the-stray-animals.png
+Content Type: image/png
+
+Uri: https://inanimals.gr/theme/petz/img/illustrations/toy.png
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\illustrations\toy.png
+Content Type: image/png
+
+Uri: https://inanimals.gr/images/homepage/review_2021-08-02_1700032312.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\review_2021-08-02_1700032312.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/review2.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\review2.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/review3.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\review3.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/review4.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\review4.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/review5.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\review5.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/review_2021-07-28_1317618894.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\review_2021-07-28_1317618894.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/homepage/review_2021-08-02_1864683897.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\homepage\review_2021-08-02_1864683897.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/img/call1.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\call1.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/js/jquery.min.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/bootstrap.min.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/common.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\common.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/main.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\main.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/plugins.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\plugins.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/prefixfree.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\prefixfree.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/contact.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\contact.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/mc-validate.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\mc-validate.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/map.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\map.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/theme/petz/js/jquery.webticker.min.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\js\jquery.webticker.min.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/swiper@8.0.7/swiper-bundle.min.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\swiper@8.0.7\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://inanimals.gr/theme/petz/img/header-backgrounds/for-articles.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\header-backgrounds\for-articles.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/ilioupoli/our-actions/stathera-sti-korifh-ths-atzendas-h-frontida-gia-ta-adespota
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\our-actions\stathera-sti-korifh-ths-atzendas-h-frontida-gia-ta-adespota.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/theme/petz/img/header-backgrounds/jumbotron.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\header-backgrounds\jumbotron.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-28_1713097618.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-28_1713097618.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-28_1580748562.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-28_1580748562.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-22_466958815.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-22_466958815.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-22_891864617.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-22_891864617.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-22_1525207601.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-22_1525207601.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-22_154054973.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-22_154054973.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-22_798402154.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-22_798402154.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2021-11-01_587379865.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2021-11-01_587379865.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-22_1966299500.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-22_1966299500.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_additional_temp_2022-02-22_1028233650.
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_additional_temp_2022-02-22_1028233650
+Content Type: 
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_additional_temp_2022-02-22_1334904189.
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_additional_temp_2022-02-22_1334904189
+Content Type: 
+
+Uri: https://inanimals.gr/images/adopt_animals/adopt_animal_temp_2022-02-22_517237867.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\adopt_animals\adopt_animal_temp_2022-02-22_517237867.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/ilioupoli/terms-and-conditions
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\terms-and-conditions.html
+Content Type: text/html
+
+Uri: https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ui\1.12.1\themes\base\jquery-ui.css
+Content Type: text/css
+
+Uri: https://code.jquery.com/ui/1.12.1/jquery-ui.min.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ui\1.12.1\jquery-ui.min.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/leaflet.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\leaflet@1.7.1\dist\leaflet.css
+Content Type: text/css
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/leaflet.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\leaflet@1.7.1\dist\leaflet.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\esri-leaflet-geocoder@2.3.3\dist\esri-leaflet-geocoder.css
+Content Type: text/css
+
+Uri: https://unpkg.com/esri-leaflet@2.5.0/dist/esri-leaflet.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\esri-leaflet@2.5.0\dist\esri-leaflet.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\esri-leaflet-geocoder@2.3.3\dist\esri-leaflet-geocoder.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/ilioupoli/blog/nomimh-h-kykloforia-twn-frontistwn-adespotwn
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\nomimh-h-kykloforia-twn-frontistwn-adespotwn.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/o-dimos-ilioypolis-deichnei-to-dromo-kai-dinei-to-paradeigma-sti-frontida-ton-adespoton-zoon
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\o-dimos-ilioypolis-deichnei-to-dromo-kai-dinei-to-paradeigma-sti-frontida-ton-adespoton-zoon.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/o-dimos-ilioypolis-vrisketai-dipla-sta-asepota-zwa
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\o-dimos-ilioypolis-vrisketai-dipla-sta-asepota-zwa.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/4th-octomvriou-pagkosmia-mera-zwwn
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\4th-octomvriou-pagkosmia-mera-zwwn.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/ilioupoli/blog/diavhma-prow-thn-proedro-ths-dhmokratias-gia-th-symboli-ths-sto-ergo-ths-zwofilikhs-enwshs-ilioupolis
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\ilioupoli\blog\diavhma-prow-thn-proedro-ths-dhmokratias-gia-th-symboli-ths-sto-ergo-ths-zwofilikhs-enwshs-ilioupolis.html
+Content Type: text/html
+
+Uri: https://inanimals.gr/images/articles/will-be-legally-circulated-stray-animal-caregivers.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\will-be-legally-circulated-stray-animal-caregivers.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/article_content_2021-07-29_1289538223.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\article_content_2021-07-29_1289538223.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/Videos/The-achievements-of-the-Municipality-of-Ilioupoli-in-relation-to-stray-animals.mp4
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\Videos\The-achievements-of-the-Municipality-of-Ilioupoli-in-relation-to-stray-animals.mp4
+Content Type: video/mp4
+
+Uri: https://inanimals.gr/images/articles/A-cat-is-resting-safely-under-the-car-of-the-Municipality-of-Ilioupoli.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\A-cat-is-resting-safely-under-the-car-of-the-Municipality-of-Ilioupoli.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/helping-stray-animals.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\helping-stray-animals.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/theme/petz/img/no_image.png
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\theme\petz\img\no_image.png
+Content Type: image/png
+
+Uri: https://www.facebook.com/
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\index-1.htm
+Content Type: text/html
+
+Uri: https://inanimals.gr/images/articles/article_2021-04-28_244776830.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\article_2021-04-28_244776830.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/article_content_2021-03-21_2024840348.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\article_content_2021-03-21_2024840348.jpg
+Content Type: image/jpeg
+
+Uri: https://platform-api.sharethis.com/js/sharethis.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\js\sharethis.js
+Content Type: text/javascript
+
+Uri: https://inanimals.gr/images/articles/The-municipality-of-Ilioupolis-is-close-to-stray-animals.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\The-municipality-of-Ilioupolis-is-close-to-stray-animals.jpg
+Content Type: image/jpeg
+
+Uri: https://inanimals.gr/images/articles/article_2021-04-28_26387159.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\article_2021-04-28_26387159.jpg
+Content Type: image/jpeg
+
+Uri: https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\swiper@8.0.7\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://inanimals.gr/images/articles/article_content_2021-07-29_1217586251.jpg
+File Name: D:\Simpatik\hunter site\upWork1\inanimals.gr\images\articles\article_content_2021-07-29_1217586251.jpg
+Content Type: image/jpeg
+

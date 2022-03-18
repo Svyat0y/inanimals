@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-e0cbe929f42ab69fd47",applicationID:"833031208"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<link rel="canonical" href="https://www.purina.gr/" />
+<link rel="shortlink" href="https://www.purina.gr/" />
+<meta name="description" content="Στην PURINA®, βοηθάμε τα κατοικίδια να ζουν χαρούμενα και υγιή πάνω από 85 χρόνια τώρα.Μάθετε εδώ πώς μπορείτε να φροντίσετε το κατοικίδιό σας." />
+<meta property="og:site_name" content="PURINA®" />
+<meta property="og:title" content="Χαρούμενα και Υγιή Κατοικίδια" />
+<meta property="og:description" content="Στην PURINA®, βοηθάμε τα κατοικίδια να ζουν χαρούμενα και υγιή πάνω από 85 χρόνια τώρα.Μάθετε εδώ πώς μπορείτε να φροντίσετε το κατοικίδιό σας." />
+<meta property="og:image" content="https://www.purina.gr/sites/default/files/2018-05/paw-banner.jpg" />
+<meta name="google-site-verification" content="b68EtiP2NEv--a80Rk8LOWhU5rdFHjm1iCqUDsPr8h4" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" hreflang="en" href="https://www.purina.gr/" />
+<link rel="revision" href="https://www.purina.gr/x%CE%B1%CF%81%CE%BF%CF%8D%CE%BC%CE%B5%CE%BD%CE%B1-%CE%BA%CE%B1%CE%B9-y%CE%B3%CE%B9%CE%AE-k%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B4%CE%B9%CE%B1" />
+<script src="/sites/default/files/google_tag/primary/google_tag.script.js?r868xo" defer></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Χαρούμενα και Υγιή Κατοικίδια | PURINA®</title>
+    <link rel="stylesheet" media="all" href="/sites/all/modules/custom/dsu_security/css/dsu_style.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tablesort.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/views/views.module.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/modules/contrib/video_embed_field/css/video_embed_field.responsive-video.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/modules/custom/nppe_module_buynow/css/button.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/modules/custom/nppe_module_contact_cta/css/general.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/modules/contrib/addtoany/css/addtoany.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/modules/contrib/paragraphs/css/paragraphs.unpublished.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/modules/custom/nppe_module_social_feed/css/social.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_base_theme/dist/css/global.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_purinamain_theme/dist/css/global.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_purinamain_theme/nppe_patw/css/nppe_patw.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_purinamain_theme/dist/css/footer.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_base_theme/dist/css/community-iframe.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_base_theme/dist/css/grid_tile_accordion_outer.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_base_theme/dist/css/grid_tiles.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_base_theme/dist/css/banner_responsive.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_base_theme/dist/css/banner-block.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_base_theme/dist/css/navbar.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/custom/nppe_purinamain_theme/dist/css/redbar.css?r868xo" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css_editor/nppe_purinamain_theme.css?r868xo" />
+
+    
+          <script type="text/javascript" src="/sites/all/modules/contrib/seckit/js/seckit.document_write.js"></script>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.no_body.css" />
+        <!-- stop SecKit protection -->
+        <noscript>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.noscript_tag.css" />
+        <div id="seckit-noscript-tag">
+          Sorry, you need to enable JavaScript to visit this website.
+        </div>
+        </noscript></head>
+  <body class="1021 path-frontpage page-node-type-landing-page">
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHV79PS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+      
+
+<div class="brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-xs-12">
+                
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="redbar-right">  <div>
+    <nav role="navigation" aria-labelledby="block-purinamainredbarmenu-menu" id="block-purinamainredbarmenu" data-block-plugin-id="system_menu_block:purina-main-redbar-menu">
+            
+  <span class="visually-hidden" id="block-purinamainredbarmenu-menu">Purina Main redbar menu</span>
+  
+
+        
+              <ul>
+              <li>
+        <a href="https://www.purina.gr/contact-us/">Eπικοινώνησε μαζί μας</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper">
+  <div id="page">
+
+        
+
+
+
+        <header id="navbar" role="banner">
+          <div class="container">
+              <div class="navbar-header">
+                  <a class="navbar-header__brand" href="/"><img src="https://www.purina.gr/sites/default/files/styles/medium/public/template/logos/purina-logo.png?itok=ZWMZmMdC" class="logo" alt="Brand Logo"/></a>
+
+                                                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+                      <span class="menu-container">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="mobile-menu-text"></span>
+                          <span class="icon-bar-container">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                          </span>
+
+                      </span>
+                  </button>
+              </div>
+
+                          <div id="main-navbar-collapse" class="navbar-collapse collapse " aria-expanded="false">
+                  <div>
+    <nav role="navigation" aria-labelledby="block-purinamainmainnavigation-menu" id="block-purinamainmainnavigation" data-block-plugin-id="system_menu_block:purinamain-main-navigation">
+            
+  <span class="visually-hidden" id="block-purinamainmainnavigation-menu">Purinamain Main Navigation</span>
+  
+
+        
+              <ul class="menu nav navbar-nav">
+                            <li class="expanded dropdown">
+        <a href="/cats" class="dropdown-toggle hidden-xs" data-target="#" data-hover="dropdown">Γάτες <span class="caret"></span></a>
+        <a href="/cats" class="dropdown-toggle visible-xs" data-target="#">Γάτες <span class="caret"></span></a>
+                                  <ul class="menu dropdown-menu">
+                            <li>
+        <a href="/cats/getting-a-new-cat" data-drupal-link-system-path="taxonomy/term/491">Aποκτώντας Μια Καινούργια Γάτα</a>
+                  </li>
+                        <li>
+        <a href="/cats/cat-breeds/breed-selector" data-drupal-link-system-path="node/11206">Επιλογή Ράτσας για Γάτες</a>
+                  </li>
+                        <li>
+        <a href="/cats/breed-library" data-drupal-link-system-path="cats/breed-library">Βιβλιοθήκη Ράτσας Γάτας</a>
+                  </li>
+                        <li>
+        <a href="/cats/key-life-stages" data-drupal-link-system-path="taxonomy/term/471">Βασικά Στάδια Ζωής</a>
+                  </li>
+                        <li>
+        <a href="/cats/health-and-nutrition" data-drupal-link-system-path="taxonomy/term/446">Υγεία και Διατροφή</a>
+                  </li>
+                        <li>
+        <a href="/cats/behaviour-and-training" data-drupal-link-system-path="taxonomy/term/536">Συμπεριφορά και Εκπαίδευση</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/dogs/getting-a-new-dog" class="dropdown-toggle hidden-xs" data-target="#" data-hover="dropdown">Σκύλοι <span class="caret"></span></a>
+        <a href="/dogs/getting-a-new-dog" class="dropdown-toggle visible-xs" data-target="#">Σκύλοι <span class="caret"></span></a>
+                                  <ul class="menu dropdown-menu">
+                            <li>
+        <a href="/dogs/getting-a-new-dog" data-drupal-link-system-path="taxonomy/term/321">Παίρνοντας Έναν Καινούργιο Σκύλο</a>
+                  </li>
+                        <li>
+        <a href="/dogs/dog-breeds/breed-selector" data-drupal-link-system-path="node/11211">Επιλογή Ράτσας για Σκύλους</a>
+                  </li>
+                        <li>
+        <a href="/dogs/breed-library" data-drupal-link-system-path="dogs/breed-library">Βιβλιοθήκη Ράτσας Σκύλου</a>
+                  </li>
+                        <li>
+        <a href="/dogs/key-life-stages" data-drupal-link-system-path="taxonomy/term/566">Βασικά Στάδια Ζωής</a>
+                  </li>
+                        <li>
+        <a href="/dogs/health-and-nutrition" data-drupal-link-system-path="taxonomy/term/586">Υγεία και Διατροφή</a>
+                  </li>
+                        <li>
+        <a href="/dogs/dog-breeds" data-drupal-link-system-path="taxonomy/term/631">Ράτσες Σκύλων</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/better-together/pets-at-work" class="dropdown-toggle hidden-xs" data-target="#" data-hover="dropdown">Kαλύτερα Μαζί <span class="caret"></span></a>
+        <a href="/better-together/pets-at-work" class="dropdown-toggle visible-xs" data-target="#">Kαλύτερα Μαζί <span class="caret"></span></a>
+                                  <ul class="menu dropdown-menu">
+                            <li>
+        <a href="/better-together/pets-at-work" data-drupal-link-system-path="taxonomy/term/616">Κατοικίδια Στη Δουλειά</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/meet-purina/expert-in-nutrition/our-nutritional-philosophy" class="dropdown-toggle hidden-xs" data-target="#" data-hover="dropdown">Γνωρίστε την PURINA® <span class="caret"></span></a>
+        <a href="/meet-purina/expert-in-nutrition/our-nutritional-philosophy" class="dropdown-toggle visible-xs" data-target="#">Γνωρίστε την PURINA® <span class="caret"></span></a>
+                                  <ul class="menu dropdown-menu">
+                            <li>
+        <a href="/meet-purina/experts-in-nutrition" data-drupal-link-system-path="node/1091">Ειδικοί Στη Διατροφή</a>
+                  </li>
+                        <li>
+        <a href="/meet-purina/expert-in-nutrition/our-nutritional-philosophy" data-drupal-link-system-path="node/3676">Η Φιλοσοφία Μας Στο Θέμα Της Διατροφής</a>
+                  </li>
+                        <li>
+        <a href="/meet-purina/what-goes-into-purina-petfood" data-drupal-link-system-path="node/3671">Τι Περιέχουν Οι Τροφές PURINA®</a>
+                  </li>
+                        <li>
+        <a href="/meet-purina/our-brands" data-drupal-link-system-path="node/1111">Οι Μάρκες Μας</a>
+                  </li>
+                        <li>
+        <a href="/meet-purina/history" data-drupal-link-system-path="node/1081">Ιστορία</a>
+                  </li>
+                        <li>
+        <a href="/meet-purina/our-people-and-culture" data-drupal-link-system-path="node/3661">Oι Άνθρωποι και Η Κουλτούρα Μας</a>
+                  </li>
+                        <li>
+        <a href="/your-questions-matter" title="Οι ερωτήσεις σας έχουν σημασία για εμάς" data-drupal-link-system-path="taxonomy/term/3365">Οι ερωτήσεις σας έχουν σημασία για εμάς</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/pins/our-commitments" class="dropdown-toggle hidden-xs" data-target="#" data-hover="dropdown">H PURINA® στην Κοινωνία <span class="caret"></span></a>
+        <a href="/pins/our-commitments" class="dropdown-toggle visible-xs" data-target="#">H PURINA® στην Κοινωνία <span class="caret"></span></a>
+                                  <ul class="menu dropdown-menu">
+                            <li>
+        <a href="/pins/we-are-better-with-pets" data-drupal-link-system-path="node/4061">We Are Better With Pets</a>
+                  </li>
+                        <li>
+        <a href="/pins" data-drupal-link-system-path="node/11318">Οι Δεσμεύσεις Μας</a>
+                  </li>
+                        <li>
+        <a href="/pins/rethinking-rescues">Επανεξετάζοντας Τις Διαδόσεις</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/COVID-19" class="dropdown-toggle hidden-xs" data-target="#" data-hover="dropdown">Κορωνοϊός &amp; Κατοικίδια <span class="caret"></span></a>
+        <a href="/COVID-19" class="dropdown-toggle visible-xs" data-target="#">Κορωνοϊός &amp; Κατοικίδια <span class="caret"></span></a>
+                                  <ul class="menu dropdown-menu">
+                            <li>
+        <a href="/COVID-19/games-to-play-with-your-dog" title="Παιχνίδια για να Παίξετε με τον Σκύλο σας" data-drupal-link-system-path="node/5356">Παιχνίδια για να Παίξετε με τον Σκύλο σας</a>
+                  </li>
+                        <li>
+        <a href="/COVID-19/games-to-play-with-your-cat" data-drupal-link-system-path="node/5351">Παιχνίδια για να Παίξετε με τη Γάτα σας</a>
+                  </li>
+        </ul>
+  
+            </li>
+        </ul>
+  
+
+
+  </nav>
+<div class="views-exposed-form" data-drupal-selector="views-exposed-form-nppe-purina-search-page-1" id="block-exposedformnppe-purina-searchpage-1" data-block-plugin-id="views_exposed_filter_block:nppe_purina_search-page_1">
+  
+    
+      <form action="/search" method="get" id="views-exposed-form-nppe-purina-search-page-1" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-query js-form-item-query">
+      <label for="edit-query">Αναζήτηση</label>
+        <input data-drupal-selector="edit-query" type="text" id="edit-query" name="query" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-nppe-purina-search" type="submit" id="edit-submit-nppe-purina-search" value="search btn" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+  </div>
+
+  </div>
+
+                                
+                
+                
+
+              </div>
+          </div>
+      </header>
+  
+        
+        
+      <div role="main" class="main-container container js-quickedit-main-content">
+        <div class="row">
+
+          
+                                          <section class="purina-layouts__brandarea clearfix">
+              <div class="col-md-12">
+                                  <div>
+    <div class="views-element-container" id="block-views-block-banner-block-1-5" data-block-plugin-id="views_block:banner-block_1">
+  
+    
+      <div><div class="breakout js-view-dom-id-1c7f10617d3e26af7c4597d5690de8af26d4c751827aa1f6d0c4332ad7130126">
+  
+  
+  
+
+  
+  
+  
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div class="views-element-container" id="block-views-block-info-icon-block-1-3" data-block-plugin-id="views_block:info_icon-block_1">
+  
+    
+      <div><div class="naturally-tailored-nutrition clearfix text-center js-view-dom-id-a713c169b29b5dab8bcb2fd1184a514b8b44f1c74a1e6e3570c09f8361aa92b9">
+  
+  
+  
+
+  
+  
+  
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+              </div>
+            </section>
+                    
+                                                    
+                                                    
+                                
+                              
+                                              
+                              
+                              
+                                                                                                    
+              
+                              
+          
+                    
+                    
+                              <section class="col-sm-12 outer-container">
+
+                        
+                        
+                        
+                        
+                                      <a id="main-content"></a>
+                <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-nppe-purinamain-theme-contactuscta" data-block-plugin-id="nppe_module_contact_ctaBlock">
+  
+    
+      <div class="nppe_module_contact_cta nppe_module_contact_cta--left">
+    <a href="https://www.purina.it/purina-risponde" target="_blank">
+        <img src="" alt="" class="nppe_module_contact_cta__image"/>
+    </a>
+</div>
+
+
+  </div>
+<div class="views-element-container" id="block-views-block-nppe-banner-rsponsive-block-1" data-block-plugin-id="views_block:nppe_banner_rsponsive-block_1">
+  
+    
+      <div><div class="breakout js-view-dom-id-8c853d4353ccbbd8c7f321f0ae1d6625da2cb8369b2d9b56d7aa040365c0cb44">
+  
+  
+  
+
+  
+  
+  
+
+      <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="
+
+
+">
+    <div class="
+
+
+">
+        <div class="banner_responsive_container">
+                            <div  class="banner_responsive_img clearfix"
+                data-img-desktop="/sites/default/files/2018-05/paw-banner_0.jpg
+
+"
+                data-img-tablet="
+ /sites/default/files/paw-banner_3.jpg
+
+"
+                data-img-mobile="
+ /sites/default/files/paw-banner_2.jpg
+
+">
+                    <div class="banner-block container">
+                        
+
+      <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="banner-block__container">
+    <div class="
+    
+
+ 
+    right
+
+">
+            <div class="
+    
+
+">
+                                    <div class="banner-block__title">
+    
+
+</div>
+                                                    <div class="banner-block__copy">
+    
+            <div><div id="better-with-pets">
+<p id="first-line">Πιστεύουμε πως</p>
+<p id="second-line">οι ανθρωποι και τα</p>
+<p id="third-line">κατοικίδια είναι</p>
+<p id="fourth-line">καλύτερα μαζί</p>
+</div></div>
+      
+
+</div>
+                                                                    <div class="banner-block__cta"><a href="" title="" class="">
+    
+
+</a></div>
+                            </div>
+    </div>
+</div></div>
+      <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="banner-block__container">
+    <div class="
+    
+            hidden-xs hidden-sm
+      
+
+ 
+    
+
+">
+            <div class="
+    
+            pets-at-work-banner-logo
+      
+
+">
+                                    <div class="banner-block__title">
+    
+
+</div>
+                                                    <div class="banner-block__copy">
+    
+
+</div>
+                                                    <div class="banner-block__image">
+    
+            <div>  <img src="/sites/default/files/home-paw-logo.png" width="311" height="101" alt="Pets at work" loading="lazy" typeof="foaf:Image" />
+
+</div>
+      
+
+</div>
+                                                    <div class="banner-block__cta"><a href="" title="" class="">
+    
+
+</a></div>
+                            </div>
+    </div>
+</div></div>
+      <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="banner-block__container">
+    <div class="
+    
+
+ 
+    
+
+">
+            <div class="
+    
+
+">
+                                    <div class="banner-block__title">
+    
+
+</div>
+                                                    <div class="banner-block__copy">
+    
+            <div><a href="/better-together/pets-at-work" id="home-banner-link">Ανακάλυψτε περισσότερα για τα Κατοικίδια στη Δουλειά</a></div>
+      
+
+</div>
+                                                                    <div class="banner-block__cta"><a href="" title="" class="">
+    
+
+</a></div>
+                            </div>
+    </div>
+</div></div>
+  
+
+
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div id="block-nppe-purinamain-theme-content" data-block-plugin-id="system_main_block">
+  
+    
+      <article role="article" about="/x%CE%B1%CF%81%CE%BF%CF%8D%CE%BC%CE%B5%CE%BD%CE%B1-%CE%BA%CE%B1%CE%B9-y%CE%B3%CE%B9%CE%AE-k%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B4%CE%B9%CE%B1">
+
+  
+    
+
+  
+  <div>
+    
+  </div>
+
+</article>
+
+  </div>
+<div class="views-element-container" id="block-views-block-nppe-tile-grid-block-2" data-block-plugin-id="views_block:nppe_tile_grid-block_2">
+  
+    
+      <div><div class="breakout js-view-dom-id-487947eefac31a15c04ff6fa44f586ee2082817a2d01f541cc07d65287e9fe9c">
+  
+  
+  
+
+      <header>
+      <div class="section-inner-container">
+<h2 class="section-title">Γνωρίστε την PURINA®</h2>
+<p class="section-text">Η δέσμευσή μας είναι να δημιουργήσουμε θρεπτικά προϊόντα τα οποία θα διατηρούν τα κατοικίδια όλων των ηλικιών χαρούμενα, υγιή και ισορροπημένα.</p>
+</div>
+    </header>
+  
+  
+  
+
+      <div class="views-row">
+
+
+
+
+
+
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+
+
+
+
+<div class="container  grid-tiles-container">
+
+
+
+
+
+
+<div class="row">
+
+<div class="col-sm-6">
+
+   
+      <div class="grid-tiles-container--tile-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="tile-container box-with-hover bottom-center video"  style="background-color:
+    
+            #ff0000
+      
+
+; border-color:
+    
+            #ff0000
+      
+
+"><span id="play-video" class="run-video">
+         <div class="cover-video-image"> 
+
+            <div>  <img src="/sites/default/files/Clare-B_b.jpg" width="555" height="461" alt="We Are Better With Pets" loading="lazy" typeof="foaf:Image" />
+
+</div>
+      
+
+</div>
+         <img class="video-icon" src="https://fb89f0e9236082fb1c8f-0d4bbe55c9b4daa239d952239679c7dc.ssl.cf3.rackcdn.com/homepage/video-icon.png  " />
+
+        <div class="tile-container--content details">
+          <h3 class="tile-container--title">
+    
+            <div>#WeAreBetterWithPets</div>
+      
+
+</h3>
+          <span class="readmore tile-container--description">
+
+
+</span>
+        </div>
+    </span>
+
+     <div class="video-iframe-container">
+    
+            <div><div class="video-embed-field-provider-youtube video-embed-field-responsive-video"><iframe width="854" height="480" frameborder="0" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/0ve2V98WcOg?autoplay=0&amp;start=0&amp;rel=0"></iframe>
+</div>
+</div>
+      
+
+</div>
+  </div>
+
+
+</div>
+
+   
+
+</div>
+
+
+<div class="col-sm-6">
+
+
+   
+
+      <div class="grid-tiles-container--tile-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="tile-container box-with-hover left-center"  style="background-color:
+    
+            #ff0000
+      
+
+; border-color:
+    
+            #ff0000
+      
+
+"><a  class="tile-container--link" href="
+    
+            /dogs/getting-a-new-dog/welcoming-your-dog/dog-proofing-home-and-garden
+      
+
+">
+
+        <div class="tile-container--image">
+
+            <div>  <img src="/sites/default/files/Dog-proofing_85b442f1-0d0b-4f63-9b43-867fe15c2a0d.jpg" width="940" height="350" alt="σκυλος, σκυλος στο σπιτι" loading="lazy" typeof="foaf:Image" />
+
+</div>
+      
+
+</div>
+        <div class="tile-container--content details">
+          <h3 class="tile-container--title">
+    
+            <div>KANTE TO ΣΠΙΤΙ ΚΑΙ ΤΟΝ ΚΗΠΟ ΣΑΣ ΑΣΦΑΛΗ ΓΙΑ ΤΟΝ ΣΚΥΛΟ ΣΑΣ</div>
+      
+
+</h3>
+          <span class="readmore tile-container--description">
+
+            <div>Οι περισσότεροι εκτροφείς θα σας ζητήσουν να περιμένετε μέχρι το κουτάβι σας να γίνει οκτώ εβδομάδων για να σας αφήσουν να το πάρετε.</div>
+      
+
+</span>
+        </div>
+    </a>
+  </div>
+
+
+</div>
+
+   
+
+      <div class="grid-tiles-container--tile-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="tile-container box-with-hover left-center"  style="background-color:
+    
+            #FF0000
+      
+
+; border-color:
+    
+            #FF0000
+      
+
+"><a  class="tile-container--link" href="
+    
+            /cats/getting-a-new-cat/finding-the-right-cat-for-me/getting-a-cat
+      
+
+">
+
+        <div class="tile-container--image">
+
+            <div>  <img src="/sites/default/files/Getting-A-Cat_4f6f9e2c-d6f9-434e-9225-5da106a1c1a8.jpg" width="940" height="350" alt="γατα, γατες" loading="lazy" typeof="foaf:Image" />
+
+</div>
+      
+
+</div>
+        <div class="tile-container--content details">
+          <h3 class="tile-container--title">
+    
+            <div>AΠΟΚΤΩΝΤΑΣ ΜΙΑ ΓΑΤΑ</div>
+      
+
+</h3>
+          <span class="readmore tile-container--description">
+
+            <div>Το να αποφασίζει κανείς να πάρει μια καινούργια γάτα είναι συναρπαστικό, αλλά μπορεί επίσης να δημιουργήσει και πολλά ερωτήματα.</div>
+      
+
+</span>
+        </div>
+    </a>
+  </div>
+
+
+</div>
+
+   
+
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div class="views-element-container" id="block-views-block-nppe-tile-grid-block-3" data-block-plugin-id="views_block:nppe_tile_grid-block_3">
+  
+    
+      <div><div class="breakout js-view-dom-id-abbafe61e26f15832e1884e6e17119337b5309005abc944bdafbd4605dff8e94">
+  
+  
+  
+
+      <header>
+      <div class="white-bg section-inner-container">
+<h2 class="section-title">Mηνιαία Σημαντικά θέματα PURINA®</h2>
+<p class="section-text">Ειδικά θέματα για  κάθε μήνα από τους επιστήμονες της Purina®</p>
+</div>
+    </header>
+  
+  
+  
+
+      <div class="white-bg section-container views-row">
+
+
+
+
+
+
+
+
+
+   
+
+
+
+   
+
+
+
+
+
+
+
+<div class="container  grid-tiles-container">
+
+
+
+
+
+
+<div class="row">
+
+<div class="col-sm-6">
+
+   
+      <div class="grid-tiles-container--tile-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="tile-container box-with-hover left-center"  style="background-color:
+    
+            #bfbd18
+      
+
+; border-color:
+    
+            #bfbd18
+      
+
+"><a  class="tile-container--link" href="
+    
+            /dogs/key-life-stages/puppies/feeding-your-puppy
+      
+
+">
+
+        <div class="tile-container--image">
+
+            <div>  <img src="/sites/default/files/dog-image.png" width="555" height="210" alt="Το κουτάβι σας και η διατροφή του" loading="lazy" typeof="foaf:Image" />
+
+</div>
+      
+
+</div>
+        <div class="tile-container--content details">
+          <h3 class="tile-container--title">
+    
+            <div>ΤΟ ΚΟΥΤΑΒΙ ΣΑΣ ΚΑΙ Η ΔΙΑΤΡΟΦΗ ΤΟΥ</div>
+      
+
+</h3>
+          <span class="readmore tile-container--description">
+
+
+</span>
+        </div>
+    </a>
+  </div>
+
+
+</div>
+
+   
+
+</div>
+
+
+<div class="col-sm-6">
+
+
+   
+
+      <div class="grid-tiles-container--tile-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="tile-container box-with-hover left-center"  style="background-color:
+    
+            #25b9bc
+      
+
+; border-color:
+    
+            #25b9bc
+      
+
+"><a  class="tile-container--link" href="
+    
+            /cats/health-and-nutrition/daily-feeding-guide/feeding-your-adult-cat
+      
+
+">
+
+        <div class="tile-container--image">
+
+            <div>  <img src="/sites/default/files/cat-image.png" width="555" height="210" alt="Η διατροφή της ενήλικης γάτας" loading="lazy" typeof="foaf:Image" />
+
+</div>
+      
+
+</div>
+        <div class="tile-container--content details">
+          <h3 class="tile-container--title">
+    
+            <div>Η ΔΙΑΤΡΟΦΗ ΤΗΣ ΕΝΗΛΙΚΗΣ ΓΑΤΑΣ</div>
+      
+
+</h3>
+          <span class="readmore tile-container--description">
+
+
+</span>
+        </div>
+    </a>
+  </div>
+
+
+</div>
+
+   
+
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div class="views-element-container" id="block-views-block-nppe-grid-tile-accordion-block-2" data-block-plugin-id="views_block:nppe_grid_tile_accordion-block_2">
+  
+    
+      <div><div class="breakout js-view-dom-id-b70744a86d19064f4cfee056140c2c7fc0a0d4754eb180f6c63dd7a5e2a1e606">
+  
+  
+  
+
+      <header>
+      <div class="white-bg section-inner-container">
+<h2 class="section-title">Tα προϊόντα μας</h2>
+<p class="section-text">Eίμαστε υπερήφανοι που έχουμε τις πιο δημοφιλείς και αξιόπιστες μάρκες τροφίμων για κατοικίδια στην Ελλάδα</p>
+</div>
+
+    </header>
+  
+  
+  
+
+      <div class="white-bg section-container views-row">
+
+
+
+
+
+
+
+
+
+   
+
+
+
+   
+
+
+
+
+
+<div class="container  grid-tiles-container">
+
+
+
+
+
+
+<div class="row">
+
+<div class="col-sm-6">
+
+   
+      <div class="grid-tiles-container--tile-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="tile-container box-with-hover left-center"  style="background-color:
+    
+            #bfbd18
+      
+
+; border-color:
+    
+            #bfbd18
+      
+
+"><a  class="tile-container--link" href="
+    
+            /meet-purina/our-brands/cat-brands
+      
+
+">
+
+        <div class="tile-container--image">
+
+            <div>  <img src="/sites/default/files/styles/nppe_base_grid_accordion_image/public/cat-brands.jpg?itok=mPdUw0ZW" width="400" height="300" alt="Cat Brands" loading="lazy" typeof="foaf:Image" />
+
+
+</div>
+      
+
+</div>
+        <div class="tile-container--content details center">
+          <h3 class="tile-container--title" style="font-size: 24px;">
+    
+
+</h3>
+          <span class="readmore tile-container--description">
+              <div>
+                  ΑΝΑΚΑΛΥΨΤΕ ΤΟ ΚΑΤΑΛΛΗΛΟ ΠΡΟΪΟΝ ΓΙΑ ΤΗ ΓΑΤΑΣ ΣΑΣ
+              </div>
+          </span>
+        </div>
+    </a>
+
+      
+</div>
+                                                                                                    
+
+</div>
+
+   
+
+</div>
+
+
+<div class="col-sm-6">
+
+
+   
+
+      <div class="grid-tiles-container--tile-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="tile-container box-with-hover left-center"  style="background-color:
+    
+            #2bb6bb
+      
+
+; border-color:
+    
+            #2bb6bb
+      
+
+"><a  class="tile-container--link" href="
+    
+            /meet-purina/our-brands/dog-brands
+      
+
+">
+
+        <div class="tile-container--image">
+
+            <div>  <img src="/sites/default/files/styles/nppe_base_grid_accordion_image/public/dog-brands_0.jpg?itok=OjTEsH35" width="400" height="300" alt="Dog Brands" loading="lazy" typeof="foaf:Image" />
+
+
+</div>
+      
+
+</div>
+        <div class="tile-container--content details center">
+          <h3 class="tile-container--title" style="font-size: 24px;">
+    
+
+</h3>
+          <span class="readmore tile-container--description">
+              <div>
+                  ΑΝΑΚΑΛΥΨΤΕ ΤΟ ΚΑΤΑΛΛΗΛΟ ΠΡΟΪΟΝ ΓΙΑ ΤΟΝ ΣΚΥΛΟ ΣΑΣ
+              </div>
+          </span>
+        </div>
+    </a>
+
+      
+</div>
+                                                                                                    
+
+</div>
+
+   
+</div>
+
+
+</div>
+</div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div class="views-element-container" id="block-views-block-breed-selector-cat-and-dog-banner-block-1" data-block-plugin-id="views_block:breed_selector_cat_and_dog_banner-block_1">
+  
+      <h2>Ανακαλύψτε την ιδανική ράτσα για εσάς</h2>
+    
+      <div><div class="js-view-dom-id-4993f5cf8e4f968026791c71305bf5d111cf03481ffa42c735e8e3c3cdcf56a1">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><a href="cats/cat-breeds/breed-selector">  <img src="/sites/default/files/BREED%20SELECTOR%20CAT%20555x210_0_1.jpg" width="555" height="210" alt="BREED SELECTOR CAT" loading="lazy" typeof="Image" />
+
+</a>
+<a href="dogs/dog-breeds/breed-selector">  <img src="/sites/default/files/BREED%20SELECTOR%20DOG%20555x210_7_0.jpg" width="555" height="210" alt="BREED SELECTOR DOG" loading="lazy" typeof="Image" />
+
+</a></span></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div class="views-element-container" id="block-views-block-nppe-base-community-iframe-block-1" data-block-plugin-id="views_block:nppe_base_community_iframe-block_1">
+  
+    
+      <div><div class="clearfix js-view-dom-id-d20e7a8381ddf35db573a6ece14b4784200d14c38d640de2470c5aaeb9e5214d">
+  
+  
+  
+
+      <header>
+      <div class="section-inner-container">
+<h2 class="section-title">Γίνετε μέλος της κοινότητας της PURINA®</h2>
+<p class="section-text">Μη χάσεις τα νέα της PURINA®</p>
+</div>
+    </header>
+  
+  
+  
+
+      <div class="col-md-4 views-row"><div class="views-field views-field-field-nppe-base-community-iframe"><div class="field-content">
+
+
+
+
+
+
+
+<div class="community-iframe-wrapper">
+    <div class="community-iframe-body 
+    facebook
+
+">
+                    
+    
+            <div><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=191997197619137';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/PurinaNiaou/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-width="540px">
+<blockquote cite="https://www.facebook.com/PurinaNiaou/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PurinaNiaou/">PurinaNiaou</a></blockquote></div></div>
+      
+
+
+            </div>
+    <div class="community-iframe-frame 
+    facebook
+
+">
+        <a href="
+    
+            https://www.facebook.com/PurinaNiaou/
+      
+
+" target="_blank">
+    
+            @PurinaNiaou
+      
+
+</a>
+    </div>
+</div></div></div></div>
+    <div class="col-md-4 views-row"><div class="views-field views-field-field-nppe-base-community-iframe"><div class="field-content">
+
+
+
+
+
+
+
+<div class="community-iframe-wrapper">
+    <div class="community-iframe-body 
+    youtube
+
+">
+                    <iframe src="
+    
+            https://www.youtube.com/embed/-XW6EIzlV5M?enablejsapi=1
+      
+
+" frameborder="0" scrolling="yes"></iframe>
+            </div>
+    <div class="community-iframe-frame 
+    youtube
+
+">
+        <a href="
+    
+            https://www.youtube.com/watch?v=-XW6EIzlV5M
+      
+
+" target="_blank">
+    
+            Purina GR
+      
+
+</a>
+    </div>
+</div></div></div></div>
+    <div class="col-md-4 views-row"><div class="views-field views-field-field-nppe-base-community-iframe"><div class="field-content">
+
+
+
+
+
+
+
+<div class="community-iframe-wrapper">
+    <div class="community-iframe-body 
+    facebook
+
+">
+                    
+    
+            <div><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=191997197619137';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/PurinaGab/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-width="540px">
+<blockquote cite="https://www.facebook.com/PurinaGab/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PurinaGab/">PurinaGab</a></blockquote></div></div>
+      
+
+
+            </div>
+    <div class="community-iframe-frame 
+    facebook
+
+">
+        <a href="
+    
+            https://www.facebook.com/PurinaGab/
+      
+
+" target="_blank">
+    
+            @PurinaGab
+      
+
+</a>
+    </div>
+</div></div></div></div>
+
+    
+
+  
+  
+
+      <footer>
+      <div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <div class="content-box" style="margin-top: 10px; margin-bottom: 20px;">
+        <p>Aκολούθησέ μας</p>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/PurinaNiaou/"><img src="https://fb89f0e9236082fb1c8f-0d4bbe55c9b4daa239d952239679c7dc.ssl.cf3.rackcdn.com/homepage/facebook-big(111x111).png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=-XW6EIzlV5M"><img src="https://fb89f0e9236082fb1c8f-0d4bbe55c9b4daa239d952239679c7dc.ssl.cf3.rackcdn.com/homepage/youtube-big(111x111).png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/PurinaGab/"><img src="https://fb89f0e9236082fb1c8f-0d4bbe55c9b4daa239d952239679c7dc.ssl.cf3.rackcdn.com/homepage/facebook-big(111x111).png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </footer>
+  
+  
+</div>
+</div>
+
+  </div>
+<div id="block-contactussection" data-block-plugin-id="block_content:5362361d-25a5-4fa9-8e3a-91608a8eb3d7">
+  
+    
+      
+            <div><div class="breakout">
+    <section class="white-bg">
+        <header>
+            <div class="section-inner-container">
+                <h2 class="section-title">Επικοινωνήστε μαζί μας</h2>
+                <p class="section-text">Έχετε απορία σχετικά με τα προιόντα της PURINA®; Θέλετε τη συμβουλή κτηνιάτρου;<br/>
+                Ή θα προτιμούσατε να μιλήσετε με κάποιον συνεργάτη μας που αγαπά τα κατοικίδια;</p>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="contact-boxes">
+                    <div class="table-row">
+                        <div class="box red">
+                            <a href="https://www.purina.gr/contact-us" target="_blank">
+                              <div class="icon-box"><img src="https://fb89f0e9236082fb1c8f-0d4bbe55c9b4daa239d952239679c7dc.ssl.cf3.rackcdn.com/homepage/contact-computer2.png" alt=""></div>
+                              <div class="detail-box">
+                                <p>Επικοινωνήστε μαζί μας ηλεκτρονικά</p>
+                              </div>
+                            </a>
+                        </div>
+                        <div class="box blue">
+                            <div class="icon-box"><img src="https://fb89f0e9236082fb1c8f-0d4bbe55c9b4daa239d952239679c7dc.ssl.cf3.rackcdn.com/homepage/pencil.png" alt=""></div>
+                            <div class="detail-box">
+                              <p>
+                                PURINA® Pet Care Team
+                                <span>NESTLE ΕΛΛΑΣ Α.Ε</span>
+                               <span>ΠΑΤΡΟΚΛΟΥ 4 15125</span>
+                               <span>ΜΑΡΟΥΣΙ</span>
+                              </p>
+                            </div>
+                        </div>
+                        <div class="box purple">
+                            <div class="icon-box"><img src="https://fb89f0e9236082fb1c8f-0d4bbe55c9b4daa239d952239679c7dc.ssl.cf3.rackcdn.com/homepage/phone-icon.png" alt=""></div>
+                            <div class="detail-box">
+                              <p>
+                                800 11 68068 ΧΩΡΙΣ ΧΡΕΩΣΗ,
+                                <span>ΜΟΝΟ ΑΠΟ ΣΤΑΘΕΡΟ</span>
+                                <span>210 6844824, ΚΙΝΗΤΟ &</span>
+                                <span>ΣΤΑΘΕΡΟ ΜΕ ΧΡΕΩΣΗ</span>
+                                <span>ΕΙΜΑΣΤΕ ΔΙΑΘΕΣΙΜΟΙ 24/7</span>
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div></div>
+      
+  </div>
+
+  </div>
+
+                      </section>
+                    
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+  </div>
+
+    <span id="nppe-buynow-general-settings" data-brand="purinaone" data-unit="product" data-environment="production" data-country="FR" data-language="fr" data-showprice="FALSE" data-version="1"></span>
+<span id="nppe-buynow-style-settings" data-background="" data-background-opacity="" data-background-image="" data-background-image-opacity="" data-border-width="" data-border-radius="" data-product-image-position="" data-font-family="" data-font-size="" data-cta-color="" data-cta-font-color="" data-cta-color-hover="" data-cta-font-color-hover=""></span>
+<span id="nppe-buynow-cac-settings" data-cac-geolocate="FALSE" data-cac-autocomplete="FALSE" data-cac-storelocation="FALSE" data-cac-map="FALSE" data-cac-dualtbl="FALSE" data-cac-filter="checkbox"></span>
+<span id="nppe-buynow-range-settings" data-range-status="1" data-range-label="Buy Now" data-range-id="15759" data-range-btn-class="" data-range-btn-id="" data-range-ext-url=""></span>
+<span id="nppe-buynow-product-settings" data-product-status="1" data-product-btn-label="" data-product-btn-class="" data-product-ext-url=""></span>
+
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1021","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"nppe_module_newsletter_de":{"newsletter":{"emailsMatchError":"E-Mail Adresse don\u0027t match","siteBase":null}},"responsive":{"breakpoints":{"nppe_base_theme.mobile":"all and (max-width: 767px)","nppe_base_theme.tablet":"all and (min-width: 768px)","nppe_base_theme.desktop":"all and (min-width: 992px)"},"activeBreakpoints":{"nppe_base_theme.mobile":false,"nppe_base_theme.tablet":false,"nppe_base_theme.desktop":false}},"ajaxTrustedUrl":{"\/search":true},"ajax":[],"user":{"uid":0,"permissionsHash":"09cfe3f73a28e301ce2591ced20f8ea6fbba2547b88cb8df15cec5c3e712a0f4"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.0"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.2.13"></script>
+<script src="/sites/default/files/languages/en_jaDe_dZtpKuUD-KCA9YItWJHTcXbEwu0DOB6hl5b7uo.js?r868xo"></script>
+<script src="/core/misc/drupal.js?v=9.2.13"></script>
+<script src="/core/misc/drupal.init.js?v=9.2.13"></script>
+<script src="https://brand-ecommerce-assets.fusepump.com/bootstraper/bootstraper.js"></script>
+<script src="/sites/all/modules/custom/nppe_module_buynow/js/range.js?r868xo"></script>
+<script src="/sites/all/modules/custom/nppe_module_buynow/js/product.js?r868xo"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/all/modules/contrib/addtoany/js/addtoany.js?v=9.2.13"></script>
+<script src="/sites/all/modules/custom/dsu_security/js/dsu_security.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_base_theme/js/custom.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_base_theme/js/jquery.matchHeight.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_base_theme/dist/js/brand-preview-card.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_purinamain_theme/js/custom.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_base_theme/js/bootstrap.min.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_base_theme/js/grid-tiles.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_base_theme/js/banner_responsive.js?r868xo"></script>
+<script src="/sites/all/themes/custom/nppe_base_theme/js/bootstrap-dropdownhover.min.js?r868xo"></script>
+
+        
+
+
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            
+                <div class="footer-top">
+                    <span id="nppe-purinamain-top">
+                     ΚΟΡΥΦΗ &#x2191;
+                    </span>
+                </div>
+
+                    </div>
+        <div class="row footer__firstline">
+            <div class="col-md-3 footer__logo-container">
+
+                
+
+<div class="footer__brand-logo">
+    <a href="/"><img src="https://www.purina.gr/sites/default/files/styles/medium/public/template/logos/purina-logo-footer.png?itok=Hs1kk2yh" alt="Brand Logo"/></a>
+</div>                            </div>
+            <div class="col-md-9 footer__firstline--right">
+                                      <div>
+    <nav role="navigation" aria-labelledby="block-purinamainfooterfirstline-menu" id="block-purinamainfooterfirstline" data-block-plugin-id="system_menu_block:purinamain-footer-first-lin">
+            
+  <span class="visually-hidden" id="block-purinamainfooterfirstline-menu">Purinamain Footer First Line</span>
+  
+
+        
+              <ul>
+              <li>
+        <a href="/cats/getting-a-new-cat" data-drupal-link-system-path="taxonomy/term/491">Γάτες</a>
+              </li>
+          <li>
+        <a href="/dogs/getting-a-new-dog" data-drupal-link-system-path="taxonomy/term/321">Σκύλοι</a>
+              </li>
+          <li>
+        <a href="/better-together/pets-at-work" data-drupal-link-system-path="taxonomy/term/616">Καλύτερα Μαζί </a>
+              </li>
+          <li>
+        <a href="/meet-purina/expert-in-nutrition/our-nutritional-philosophy" data-drupal-link-system-path="node/3676">Γνωρίστε Την PURINA®</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                            </div>
+        </div>
+        <div class="row footer__secondline">
+            <div class="col-sm-3 col-xs-12 footer__secondline--left">
+                                      <div>
+    <div id="block-purinamainpurinamainfootersecondlineleft" data-block-plugin-id="block_content:ba346787-ef5d-478b-bf42-9ab65de60a10">
+  
+    
+      
+            <div><style>
+.a2a_kit {display:block!important;position:fixed;left:0;top:40%;z-index:10;}
+.addtoany_list>a {display:block;}
+</style>
+<div class="footer-copyright-logo"><img src="/sites/g/files/mcldtz1556/files/nestle-logo_0.png"></div><div class="footer-copyright-text">© Reg. Trademark of Nestle S.A.</div></div>
+      
+  </div>
+
+  </div>
+
+                            </div>
+            <div class="col-sm-9 col-xs-12 footer__secondline--right">
+                                      <div>
+    <nav role="navigation" aria-labelledby="block-purinamainfootersecondlinemenu-menu" id="block-purinamainfootersecondlinemenu" data-block-plugin-id="system_menu_block:purinamain-footer-second-li">
+            
+  <span class="visually-hidden" id="block-purinamainfootersecondlinemenu-menu">Purinamain Footer Second Line Menu</span>
+  
+
+        
+              <ul>
+              <li>
+        <a href="/terms-and-conditions" data-drupal-link-system-path="node/3756">Όροι &amp; Προϋποθέσεις</a>
+              </li>
+          <li>
+        <a href="/privacy" data-drupal-link-system-path="node/3771">Δήλωση Ιδιωτικότητας</a>
+              </li>
+          <li>
+        <a href="/cookies" data-drupal-link-system-path="node/4051">Πολιτικη της Nestle για τα cookies</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-e0cbe929f42ab69fd47","applicationID":"833031208","transactionName":"bl0BYBRTDBcHVRdaDFcXIlcSWw0KSXIRRhNYVD9aCVYHOCVZDUcRVlQPURRuLAsCUzVaBk57DFoSQA0IClMRHl1PUQZD","queueTime":0,"applicationTime":472,"atts":"QhoCFlxJHxk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

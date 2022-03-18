@@ -1,0 +1,332 @@
+.accordion-arrow {
+    position: relative;
+    padding-right: 30px !important;
+}
+
+.accordion-arrow:after {
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 10px;
+}
+
+#owl-services .owl-stage {
+    display: flex;
+}
+
+#owl-services .owl-stage .owl-item {
+    display: flex;
+    flex-direction: column;
+}
+
+#owl-services .owl-stage .owl-item .col-xs-12 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#owl-services .owl-stage .owl-item .col-xs-12 .box_icon {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#owl-services .owl-stage .owl-item .col-xs-12 .box_icon .icon {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#owl-services .owl-stage .owl-item .col-xs-12 .box_icon .icon .info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#owl-services .owl-stage .owl-item .col-xs-12 .box_icon .icon .info a {
+    margin-top: auto;
+    align-self: center;
+}
+
+
+
+.form-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    margin: 15px;
+}
+.form-filter .form-select {
+    flex-grow: 1;
+}
+.form-filter select.form-control {
+    margin-bottom: 0;
+    flex-grow: 1;
+    /*flex-basis: 170px;*/
+}
+.form-filter .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: auto;
+}
+.form-filter .filter-buttons > * {
+    flex-grow: 1;
+    margin: 0;
+}
+.form-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-select > label {
+    /*width: 100%;*/
+
+    /*flex-basis: 107px;*/
+    /*flex-shrink: 0;*/
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.form-select .form-control {
+    margin-bottom: 0;
+}
+#animal-type {
+    min-width: 140px;
+}
+.filter-buttons > .btn {
+    margin-top: 0;
+    /*margin-left: 15px;*/
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px
+    /*justify-content: center;*/
+}
+.item {
+    width: calc(33% - 24px);
+    display: flex;
+    flex-direction: column;
+    /*padding: 10px;*/
+}
+.item p, .item ul {
+    line-height: 1.4;
+    font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+    .items {
+        gap: 14px
+    }
+    .item {
+        width: calc(50% - 14px);
+    }
+}
+@media screen and (max-width: 480px) {
+    .item {
+        width: 100%;
+    }
+}
+/*.item__body {
+    margin: 10px;
+}*/
+
+.item__img-cont {
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-grow: 1; */
+    height: 0;
+    position: relative;
+    padding-bottom: calc(100% / (352/300));
+    /* max-width: 100%; */
+}
+.item__tags {
+    word-break: break-word;
+}
+.card-popup__img, .item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+    /* bottom: 0; */
+    display: block;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+}
+
+.item__name {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1285px) {
+    .item__name {
+        align-items: stretch;
+        flex-direction: column-reverse;
+    }
+}
+.item__name > * {
+    line-height: 1.1;
+    margin: 0;
+}
+.item__name > *:last-child {
+    margin-left: auto;
+}
+.item__body {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px
+}
+.item__btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.item__btns > * {
+    margin: 0;
+    flex-grow: 1;
+}
+
+/*.item__img-cont {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+.card-popup__img,
+.item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+.card-popup__fade {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease;
+}
+.card-popup__fade.open {
+    opacity: 0.7;
+    visibility: visible;
+}
+.card-popup__close {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 200;
+    filter: drop-shadow(1px 2px 0px black);
+}
+.card-popup__close svg path {
+    fill: var(--swiper-theme-color)
+}
+.card-popup {
+    position: fixed;
+    background: #fff;
+    /*padding: 50px;*/
+    line-height: 1.6;
+    top: 50%;
+    left: 50%;
+    color: #333;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    /*border-radius: 20px;*/
+    z-index: 9;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+    transition: all .3s ease;
+    display: flex;
+    flex-direction: column;
+}
+.card-popup.open {
+    opacity: 1;
+    visibility: visible;
+}
+.card-popup img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.card-popup__content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.card-popup__inner,
+.card-popup__img-cont {
+    max-width: 600px;
+    width: 100%;
+}
+
+.card-popup__img-cont .swiper-container {
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (max-width: 1025px) {
+    .card-popup {
+        width: 94%;
+        max-width: 600px;
+    }
+    .card-popup img {
+        height: auto;
+    }
+    .card-popup__content {
+        display: block;
+        /*grid-template-columns: 100%;*/
+    }
+}
+@media screen and (min-width: 1026px) {
+
+.card-popup__img-cont .swiper-container {
+    position: sticky;
+    top: 0;
+}
+}
+
+.card-popup__inner {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.card-popup__inner p,
+.card-popup__inner ul {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: .05em;
+}
+
+:root {
+    --swiper-theme-color: #f19e20
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet:only-child {
+    opacity: 0;
+}
